@@ -1,20 +1,12 @@
--- This file was automatically generated for the LuaDist project.
-
 -- vim: set ft=lua:
 
 package = 'optarg'
-version = '0.1-2'
+version = 'dev-0'
 
--- LuaDist source
 source = {
-  tag = "0.1-2",
-  url = "git://github.com/LuaDist-testing/optarg.git"
+  url = 'git://github.com/ncopa/lua-optarg',
+  branch = 'master'
 }
--- Original source
--- source = {
---   url = 'git://github.com/ncopa/lua-optarg',
---   tag = 'v0.1'
--- }
 
 description = {
   summary = 'Simple command line option parser',
